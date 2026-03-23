@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Interactive Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar" id="navbar">
+        <div class="navbar-container">
+            <div class="nav-logo">
+                <span class="logo-icon">◆</span>
+                <span class="logo-text">Studio</span>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-section="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#work" class="nav-link" data-section="work">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link" data-section="services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </li>
+            </ul>
+
+            <button class="nav-toggle" id="navToggle">
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+                <span class="hamburger"></span>
+            </button>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator"></div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="section hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to Studio</h1>
+            <p class="hero-subtitle">Crafting beautiful digital experiences</p>
+            <button class="cta-button">Explore More</button>
+        </div>
+        <div class="hero-gradient"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="section-container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">✨</div>
+                    <h3>Innovation</h3>
+                    <p>We create cutting-edge solutions with the latest technologies and design trends.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Precision</h3>
+                    <p>Every detail matters. We focus on perfection in every aspect of our work.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🚀</div>
+                    <h3>Performance</h3>
+                    <p>Lightning-fast and optimized for the best user experience across all devices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="section work">
+        <div class="section-container">
+            <h2 class="section-title">Our Work</h2>
+            <div class="work-grid">
+                <div class="work-card">
+                    <div class="work-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="work-content">
+                        <h3>Project Alpha</h3>
+                        <p>A revolutionary web application</p>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <div class="work-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="work-content">
+                        <h3>Project Beta</h3>
+                        <p>Mobile-first design experience</p>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <div class="work-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="work-content">
+                        <h3>Project Gamma</h3>
+                        <p>Interactive dashboard system</p>
+                    </div>
+                </div>
+                <div class="work-card">
+                    <div class="work-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                    <div class="work-content">
+                        <h3>Project Delta</h3>
+                        <p>Brand identity and strategy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <div class="section-container">
+            <h2 class="section-title">Services</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <div class="service-number">01</div>
+                    <h3>Web Design</h3>
+                    <p>Stunning, responsive web designs that captivate and convert your audience.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-number">02</div>
+                    <h3>Development</h3>
+                    <p>Robust, scalable web applications built with modern technologies.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-number">03</div>
+                    <h3>UI/UX Design</h3>
+                    <p>User-centered design solutions that create memorable experiences.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-number">04</div>
+                    <h3>Branding</h3>
+                    <p>Strategic branding that sets your company apart from the competition.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-number">05</div>
+                    <h3>Animation</h3>
+                    <p>Smooth, engaging animations that bring your designs to life.</p>
+                </div>
+                <div class="service-item">
+                    <div class="service-number">06</div>
+                    <h3>Consultation</h3>
+                    <p>Expert guidance to help you achieve your digital goals.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="section-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="6" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Studio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" class="social-link">Twitter</a>
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
