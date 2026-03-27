@@ -89,7 +89,6 @@ function smoothScroll(target) {
 // ============================================
 
 document.addEventListener('mousemove', (e) => {
-    const floating = document.querySelectorAll('.hero::before, .hero::after');
     const mouseX = e.clientX / window.innerWidth;
     const mouseY = e.clientY / window.innerHeight;
     
